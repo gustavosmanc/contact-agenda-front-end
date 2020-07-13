@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+@media (min-width: 500px) {
+  .inner-container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .inner-container {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .inner-container {
+    width: 50%;
+  }
+}
+
+.frame {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  width: 100%;
+  max-height: 750px;
+}
+
+.frame::-webkit-scrollbar {
+  display: none;
+}
+
+.contact-frame:last-child {
+  border: 0;
+}
+
+.contact-frame {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background: #4c8bf5;
+  padding: 15px 20px;
+}
+
+.contact-frame:last-child {
+  margin-bottom: 0;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contact-name {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.contact-detail {
+  color: #dcdcdc;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.contact-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.action-button {
+  height: 35px;
+  width: 35px;
+  background: #a5c5fa;
+  color: #fff;
+  outline: none !important;
+  border: none;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.action-button:hover {
+  background: #dbe7fd;
+}
+
+.edit-button {
+  text-decoration: none !important;
+}
+
+.remove-button {
+  margin-left: 10px;
+}
+
+.add-button {
+  width: 200px;
+  height: 40px;
+  background: #4c8bf5;
+  color: #fff;
+  outline: none !important;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  margin: 0 auto;
+  margin-top: 25px;
+  text-decoration: none !important;
+}
+
+.add-button:hover {
+  background: #3c6fc4;
+  color: #fff;
+}
+
+.contact-select {
+  width: 225px;
+  margin-bottom: 10px;
+}
