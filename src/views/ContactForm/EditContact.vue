@@ -228,7 +228,7 @@ export default {
 
     axios
       .get(
-        `http://contact-agenda.herokuapp.com/src/scripts/GetContact.php?id=${this.$route.params.id}`
+        `https://contact-agenda.herokuapp.com/src/scripts/GetContact.php?id=${this.$route.params.id}`
       )
       .then((result) => {
         this.name = result.data.name;
@@ -320,7 +320,7 @@ export default {
 
       axios
         .post(
-          `http://contact-agenda.herokuapp.com/src/scripts/UpdateContact.php?id=${this.$route.params.id}`,
+          `https://contact-agenda.herokuapp.com/src/scripts/UpdateContact.php?id=${this.$route.params.id}`,
           params
         )
         .then((response) => {

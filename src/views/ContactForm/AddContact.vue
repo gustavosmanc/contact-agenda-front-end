@@ -245,7 +245,7 @@ export default {
 
       axios
         .post(
-          `http://contact-agenda.herokuapp.com/src/scripts/AddContact.php`,
+          `https://contact-agenda.herokuapp.com/src/scripts/AddContact.php`,
           params
         )
         .then((response) => {

@@ -95,7 +95,7 @@ export default {
 
     listContacts() {
       axios
-        .get(`http://contact-agenda.herokuapp.com/src/scripts/ListContact.php`)
+        .get(`https://contact-agenda.herokuapp.com/src/scripts/ListContact.php`)
         .then((response) => {
           response.data.forEach((contact) => {
             this.contacts.push({
@@ -124,7 +124,7 @@ export default {
         .then((info) => {
           axios
             .get(
-              `http://contact-agenda.herokuapp.com/src/scripts/DeleteContact.php?id=${id}`
+              `https://contact-agenda.herokuapp.com/src/scripts/DeleteContact.php?id=${id}`
             )
             .then(() => {
               if (info === 'confirm') {
