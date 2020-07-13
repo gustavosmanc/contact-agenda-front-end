@@ -1,24 +1,17 @@
-# contact-agenda
+# Contact Agenda
 
-## Project setup
+## Instructions
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+Open up your project and run ```npm install``` on the project's root folder, then run ```npm run serve``` in order to host it locally.
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Resources
 
-### Lints and fixes files
-```
-npm run lint
-```
+* [Vue.js](https://vuejs.org/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Axios](https://github.com/axios/axios)
+* [Cute Alert](https://github.com/gustavosmanc/cute-alert)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Dev
+
+* **Gustavo Mancuzo** - [gustavosmanc](https://github.com/gustavosmanc)
